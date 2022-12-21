@@ -1,3 +1,4 @@
+
 //let firstName ="Asif";
 //let age=33;
 //console.log(firstName);
@@ -142,23 +143,127 @@
 // -=
 // *=
 // /=
-let item = 10+5;
-console.log(item);
+//let item = 10+5;
+//console.log(item);
 
-let x=15;
-x+=10; //x = x+10
-console.log(x);
+//let x=15;
+//x+=10; //x = x+10
+//console.log(x);
 
-let y=20;
-y-=15;  //y=y-15; 
-console.log(y);
+//let y=20;
+//y-=15;  //y=y-15; 
+//console.log(y);
 
-let z=5;
-z*=5;   //z = z*5;
+//let z=5;
+//z*=5;   //z = z*5;
         //z = 5*5;
-console.log(z);
+//console.log(z);
 
-let w=15;
-w/=3;   //w = w/3; 
-console.log(w);
+//let w=15;
+//w/=3;   //w = w/3; 
+//console.log(w);
 
+//3.Comparison Operators:
+
+//'==' (define equal value)
+//'===' (define equal value and also datatypes)
+//console.log(9==9);
+//console.log(9=="9");
+//console.log(9==="9"); //9 is number and "9" is string
+
+// '!=' (Not equal)
+//console.log(9 != 9);
+
+// !== (Not equal value or not equal datatypes)
+//console.log(9 !== 9);
+
+// '>'
+//console.log(9 > 10);
+// "<"
+//console.log(9 < 10);
+//'>='
+//console.log( 9 >= 9);
+//'<='
+//console.log( 9<=10 );
+
+//'?' ternary operator (learn later)
+
+//4.Logical Operators:
+
+//'&&'(logical &)
+//'!' (logical not)
+// ।। (logical or)
+// data && data (compare between two sides of data are true or false?) 
+//let x=6;
+//let y=5;
+//console.log(x<9);
+//console.log(y>3);
+//console.log( x<9 && y>3);
+//console.log ( x<4 && y>4);
+
+//'।।' (if one condition fulfilled it will be true)
+//console.log( x<9 || y>3 );
+
+//'!' (logical not operator used to change the value result)
+//console.log(x==y);
+//console.log(!(x==y));
+
+// operator precedencs: 
+// B O D M A S 
+// B (brackets)
+// O (orders or power x2)
+// D (divition)
+// M (multification)
+// A (addition)
+// S (subtraction)
+console.log((36/6)*3+2**2-(3+5));
+// 6*3+2**2-8
+// 6*3+4-8
+// 18+4-8
+// 22-8
+// 14
+
+//4. Template Literals:
+//const firstName ="Amrita";
+//const lastName ="Deb";
+//let age = 29;
+//let job = "student";
+//const country = "Bangladesh";
+//console.log (firstName + " " + lastName);
+//console.log ("I'm Amrita Deb, 29 years old student!");
+//console.log ( "I'm "+ firstName+ " "+ lastName+ ", " + age + " years old " + job + "!");
+//console.log(`I'm ${firstName} ${lastName}, ${age} years old ${job}!`);
+// `` it's called backtick, left quote, or an open quote, it is a punctuation mark (`) which here used as template literals to wrap up whole sentence. 
+// example:
+//console.log(`I love ${country}`);
+//console.log (`first line
+//second line
+//third line
+//fourth line`);
+
+//console.log (`Bangladesh win ${2+1} series`);
+
+//5. If/ Else statements:
+//if(condition){ }
+// else { }
+
+// 'if' condition is true then if's data will show otherwise else data will show in console. 
+
+//if (5>6){
+//        console.log("5");
+//} else {
+//       console.log("something else!");
+// }
+
+//if (10<9) {
+//       console.log('display 10');
+// }  else {
+//        console.log("somthing else!");
+// }
+
+let mistyAge = 6;
+if (mistyAge>=6) {
+        console,log('misty can start school');
+} else {
+        console,log("misty can't start school");
+}
